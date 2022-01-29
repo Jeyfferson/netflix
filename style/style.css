@@ -11,17 +11,19 @@
 
 body{
     background: var(--preta);
-    font-family: Arial, Helvetica, serif
+    font-family: Arial, Helvetica, serif;
     color: white;
 }
 
 header .container{
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     
+    
 }
+
 
 .container a:hover{
     color: white;
@@ -71,17 +73,20 @@ header nav a:hover{
     align-items: flex-start;
 }
 
+
 /*Descrição do filme principal*/
 .filme-principal .descricao{
     margin-top: 1%;
     margin-bottom: 50px;
     margin-left: 10px;
+    
 }
 
 .titulo{
     margin-top: 15%;
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 .botao{
@@ -96,8 +101,20 @@ header nav a:hover{
 
 }
 
+.botao a{
+    text-decoration: none;
+       
+    color: white;
+    padding: 10px 20px;
+    margin-right: 15px;
+    font-size: 10pt;
+    cursor: pointer;
+    transition: .3s ease all;
+    border: none;
+}
+
 .botao:hover{
-    background-color: white;
+    background-color: black;
     color: black;
     
 }
